@@ -8,7 +8,7 @@ public class Matriz {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		int[][] matrizInteiros = {{10, 15, 35}, {70, 120, 140}, {50, 100, 150}};
+		int[][] matrizInteiros = {{10, 15, 35}, {70, 120, 140}, {50, 100, 300}};
 
 		float matrizFloat[][] = new float[2][3];
 		
