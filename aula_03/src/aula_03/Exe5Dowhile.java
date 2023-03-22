@@ -8,7 +8,8 @@ public class Exe5Dowhile {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		int numero=0 , soma=0 ;
+		int numero=0;
+		int soma=0 ;
 		
 		//pelo menos uma vez letra um numero
 		do {
@@ -17,7 +18,7 @@ public class Exe5Dowhile {
 		if(numero >0)
 			//soma o numero anteior com com seguinte se forem positivos(apenas numeros >0
 			//soma=soma +numero (outra forma de fazer
-			soma += numero;
+			soma =soma+ numero;
 		
 		//enquanto o numero for diferente de 0
 		}while(numero !=0);

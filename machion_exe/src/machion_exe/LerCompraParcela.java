@@ -10,7 +10,7 @@ public class LerCompraParcela {
 		
 		double vCompra;
 		int parc;
-		
+		//machion
 		System.out.println("Digite o valor da compra :R$");
 		vCompra = scanner.nextDouble();
 		System.out.println("Em quantas parcelas deseja?1/2/3:");
