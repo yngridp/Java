@@ -22,13 +22,13 @@ public class ContaPoupanca extends Conta { //extends para chamar a heranca
 	public boolean rendimento(float valor) {
 
 		this.getSaldo()
-			System.out.println("\nSaldo é insuficiente!");
+			System.out.println("\nSaldo ï¿½ insuficiente!");
 			
 	}
 	
 	public void visualizar () {
 		super.visualizar();
-		System.out.println("Aniversário da Conta: " + this.aniversario);
+		System.out.println("Aniversï¿½rio da Conta: " + this.aniversario);
 	}
 
 }
