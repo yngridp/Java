@@ -8,7 +8,19 @@ public class Jogo extends Produto{
 		super(id, nome, versao, produtora, dataLancamento, preco);
 		this.categoria = categoria;
 	}
-
 	private int categoria;
+
+	public int getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(int categoria) {
+		this.categoria = categoria;
+	}
+
+	public void visulizar() {
+		super.visualizar();
+		System.out.println("Categoria do jogo: " + this.categoria);
+	}
 
 }

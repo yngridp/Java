@@ -4,7 +4,7 @@ public class TestaCliente {
     
     public static void main(String[] args) {
         
-          Exer01_ClasseCliente tc = new Exer01_ClasseCliente ("Bianca" , 27, "Feminino" , "Rio de Janeiro" , "(21 96719-5996");
+          Exer01_ClasseCliente tc = new Exer01_ClasseCliente ("João" , 27, "Masculino" , "Rio de Janeiro" , "(21 96719-5996");
           
           tc.visualizar();
 

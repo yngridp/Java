@@ -17,6 +17,11 @@ public class TestaGame {
 		g1.setVersao(2);
 		
 		g1.visualizar();
+		//criar dps de classes console jgo
+		//pega todos os atributos e acrescentando o que foi criado na classe console
+		LocalDate data3 = LocalDate.of(2021, 8, 15); //LocalDate apenas para colocar uma data
+		Console cs1 = new Console(01,"X-Box 360", 2,"Microsoft", data2, 500.00f, 1);
+		cs1.visualizar();
 	}
 
 }
