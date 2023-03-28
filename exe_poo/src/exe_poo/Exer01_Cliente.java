@@ -1,6 +1,6 @@
 package exe_poo;
 
-public class Exer01_ClasseCliente {
+public class Exer01_Cliente {
     
     private String nome;
     private int idade;
@@ -8,7 +8,8 @@ public class Exer01_ClasseCliente {
     private String cidade;
     private String telefone;
     
-    public Exer01_ClasseCliente(String nome, int idade, String sexo, String cidade, String telefone) {
+    
+    public Exer01_Cliente(String nome, int idade, String sexo, String cidade, String telefone) {
         this.nome = nome;
         this.idade = idade;
         this.sexo = sexo;
