@@ -22,7 +22,7 @@ public class ContaController implements ContaRepository {
 
 	@Override
 	public void listarTodas() {
-		for(Conta conta : listaContas) {
+		for(var conta : listaContas) {
 			conta.visualizar();
 		}
 		
