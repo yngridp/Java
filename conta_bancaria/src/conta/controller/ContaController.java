@@ -37,7 +37,7 @@ public class ContaController implements ContaRepository {
 
 	@Override
 	public void atualizar(Conta conta) {
-        Conta buscaconta = buscarNaCollection(numero);
+        var buscaconta = buscarNaCollection(numero);
 		
 		if(buscaconta != null) {
 			listaContas.set(listaContas.indexOf(buscaconta), conta);
